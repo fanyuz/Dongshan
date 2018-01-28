@@ -32,8 +32,9 @@
 			<p class="login_back">
 				<i>登录密码：</i>
 				<input type="password" placeholder="登录密码不少于6个字符" class="psd"/>
+				<b class="psd_hide"><img src="../../img/icon/hide.png"/></b>
 			</p>
-			<button class="login_btn">登录</button>
+			<button class="login_btn">立即登录</button>
 			<p>
 				<span>没有账号，<a href="register.html">去注册</a></span>
 				<a href="forgetpassword.html">忘记密码？</a>
@@ -63,6 +64,16 @@
 					return ;
 				}
 			})
+			var psd_v = true;
+			$(".psd_hide").click(function(){
+				if(psd_v){
+					$(".psd_hide").find("img").attr("src","../../img/icon/show.png")
+				}else{
+					$(".psd_hide").find("img").attr("src","../../img/icon/hide.png")
+				}
+				psd_v = !psd_v;
+			})
+			
 		})
 	</script>
 </html>

@@ -449,6 +449,7 @@ header {
   width: 100%;
   height: 3rem;
   position: relative;
+  margin-top: 3rem;
   padding-top: 0.5rem;
   background: #fff;
   margin-bottom: 1px;
@@ -561,6 +562,56 @@ header {
   margin-right: 0.7rem;
 }
 /******商品列表*******/
+/****商品列表*****/
+.home_shopping {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3.3rem;
+}
+.home_shopping li {
+  width: 100%;
+  height: 8.4rem;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+}
+.home_shopping li .shopping_img {
+  flex: 3;
+  width: 7rem;
+  height: 7rem;
+  margin-right: 0.7rem;
+}
+.home_shopping li .shopping_img img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.home_shopping li .shopping_message {
+  flex: 5;
+  width: 12.5rem;
+  height: 100%;
+  position: relative;
+}
+.home_shopping li .shopping_message a {
+  font-size: 0.9rem;
+  color: #363636;
+  line-height: 1.6rem;
+}
+.home_shopping li .shopping_message p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 1.6rem;
+}
+.home_shopping li .shopping_message p span {
+  color: #E77715;
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+}
+.home_shopping li .shopping_message p i {
+  font-size: 0.7rem;
+  color: #999;
+}
 .shoppinglist_head {
   width: 100%;
   height: 3rem;
@@ -2196,13 +2247,13 @@ header {
 .shop_list li .shopping_message span {
   font-size: 1rem;
   line-height: 2rem;
-  color: #009646;
+  color: #E77715;
   position: absolute;
   left: 0;
   bottom: 0;
 }
 .shop_list li .shopping_message span i {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   margin-right: 0.3rem;
 }
 .shop_list li .shopping_message .kaituan {
@@ -2210,7 +2261,7 @@ header {
   height: 2rem;
   font-size: 0.9rem;
   color: #FFFFFF;
-  background: #009646;
+  background: #F7BC57;
   text-align: center;
   line-height: 2rem;
   border-radius: 0.4rem;
@@ -2300,6 +2351,7 @@ header {
   transform: translateX(-50%);
   background: #FFFFFF;
   padding-top: 0.333333rem;
+  overflow: hidden;
 }
 .address .add_main h3 {
   width: 100%;
@@ -2461,6 +2513,9 @@ header {
   color: #333333;
   font-size: 0.8rem;
 }
+.order_form .delivery li i {
+  color: #E77817;
+}
 .order_form .delivery li p {
   float: left;
 }
@@ -2528,7 +2583,7 @@ header {
 }
 .order_form .delivery .clearing p span {
   float: right;
-  color: #009646;
+  color: #E9852E;
   margin-right: 0.7rem;
 }
 .order_form .delivery .clearing h6 {
@@ -2539,7 +2594,7 @@ header {
   font-size: 0.9rem;
 }
 .order_form .delivery .clearing h6 i {
-  color: #009646;
+  color: #E9852E;
   margin-left: 0.4rem;
 }
 .peisong {
@@ -2566,11 +2621,11 @@ header {
 }
 .footer_submit .submit_message p span {
   font-size: 1rem;
-  color: #009646;
+  color: #EA8934;
 }
 .footer_submit .submit_message p i {
   font-size: 0.6rem;
-  color: #009646;
+  color: #EA8934;
 }
 .footer_submit button,
 .footer_submit a {
@@ -2578,7 +2633,7 @@ header {
   height: 100%;
   float: right;
   border: none;
-  background: #009646;
+  background: #45591E;
   color: #FFFFFF;
   line-height: 3.3rem;
   text-align: center;
@@ -2626,6 +2681,30 @@ header {
   position: absolute !important;
   left: 0;
   bottom: 0;
+}
+/******账户安全*********/
+.account_main {
+  width: 100%;
+  height: 3rem;
+  display: block;
+  margin-top: 3.3rem;
+  background: #FFFFFF;
+  padding: 0 1rem;
+}
+.account_main p {
+  font-size: 1rem;
+  line-height: 3rem;
+  float: left;
+  color: #3A3A3A;
+}
+.account_main span {
+  display: block;
+  width: 0.5rem;
+  height: 0.9rem;
+  background: url(../img/icon/icon_rt.png) no-repeat;
+  background-size: 100% 100%;
+  float: right;
+  margin-top: 1rem;
 }
 /******拼团详情********/
 .group_message > p {
@@ -3347,6 +3426,17 @@ header {
   margin-top: 0.7rem;
   border: none;
 }
+.login_main p b {
+  width: 1.6rem;
+  height: 0.866666rem;
+  float: right;
+  margin-top: 1.066666rem;
+}
+.login_main p b img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 .login_main p span {
   float: left;
   line-height: 3rem;
@@ -3355,7 +3445,7 @@ header {
   width: 50%;
 }
 .login_main p span a {
-  color: #009646;
+  color: #45591E;
 }
 .login_main p > a {
   float: right;
@@ -3377,7 +3467,7 @@ header {
   line-height: 3rem;
   text-align: center;
   border: none;
-  background: #009646;
+  background: #45591E;
   color: #FFFFFF;
   font-size: 1.1rem;
   margin: 2rem auto 0;
@@ -3461,7 +3551,7 @@ header {
   line-height: 3rem;
   text-align: center;
   border: none;
-  background: #009646;
+  background: #45591E;
   color: #FFFFFF;
   font-size: 1.1rem;
   margin: 1.8rem auto 0;
