@@ -31,7 +31,7 @@
 			</p>
 			<p class="login_back">
 				<i>登录密码：</i>
-				<input type="password" placeholder="登录密码不少于6个字符" class="psd"/>
+				<input type="password" placeholder="登录密码不少于6个字符" class="psd" id="psd_show"/>
 				<b class="psd_hide"><img src="../../img/icon/hide.png"/></b>
 			</p>
 			<button class="login_btn">立即登录</button>
@@ -62,17 +62,24 @@
 						prompt.hide();
 					},2000)
 					return ;
+				}else{
+					window.location = "../../index.html"
 				}
+				
 			})
 			var psd_v = true;
 			$(".psd_hide").click(function(){
 				if(psd_v){
+					psd_show.type = "text";
 					$(".psd_hide").find("img").attr("src","../../img/icon/show.png")
 				}else{
+					psd_show.type = "password";
 					$(".psd_hide").find("img").attr("src","../../img/icon/hide.png")
 				}
 				psd_v = !psd_v;
 			})
+			
+			
 			
 		})
 	</script>

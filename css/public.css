@@ -28,7 +28,7 @@ header {
 }
 .search_top {
   position: fixed !important;
-  top: 0rem;
+  top: -3rem;
   left: 0;
   width: 100%;
   z-index: 99999;
@@ -449,7 +449,6 @@ header {
   width: 100%;
   height: 3rem;
   position: relative;
-  margin-top: 3rem;
   padding-top: 0.5rem;
   background: #fff;
   margin-bottom: 1px;
@@ -872,7 +871,7 @@ header {
   padding: 0 1rem;
   border-bottom: 1px solid #CCCCCC;
   position: fixed;
-  top: 0;
+  top: 3rem;
   left: 0;
   z-index: 99;
 }
@@ -925,12 +924,12 @@ header {
   margin: 0 1.4rem;
 }
 .shopp_car_null .shopp_car_btn a:nth-child(1) {
-  background: #009646;
-  border: 1px solid #009646;
+  background: #45591E;
+  border: 1px solid #45591E;
   color: #FFFFFF;
 }
 .cal_main {
-  margin-top: 3.2rem;
+  margin-top: 6rem;
   width: 100%;
   overflow: hidden;
   margin-bottom: 3.6rem;
@@ -1045,7 +1044,7 @@ header {
   border: 1px solid #DBDBDB;
   color: #333333;
   float: left;
-  line-height: 1.2rem;
+  line-height: 1.1rem;
   text-align: center;
   cursor: pointer;
 }
@@ -1107,7 +1106,7 @@ header {
   width: 5.333333rem;
   height: 1.8rem;
   border: 1px solid #CCCCCC;
-  background: #F18E00;
+  background: #45591E;
   border-radius: 0.2rem;
   float: right;
   text-align: center;
@@ -1130,7 +1129,7 @@ header {
   float: left;
 }
 .car_footer .settlement li:nth-child(1) {
-  width: 36% !important;
+  width: 34% !important;
   padding-left: 1rem;
   line-height: 3.3rem;
 }
@@ -1143,13 +1142,16 @@ header {
 .car_footer .settlement li:nth-child(1) em {
   font-size: 1rem;
 }
+.car_footer .settlement li:nth-child(2) {
+  width: 34% !important;
+}
 .car_footer .settlement li:nth-child(3) {
   background: #009646;
 }
 .car_footer .settlement li:nth-child(3) a,
 .car_footer .settlement li:nth-child(3) button {
   color: #ffffff;
-  background: #009646;
+  background: #45591E;
 }
 .car_footer .settlement li a,
 .car_footer .settlement li button {
@@ -1168,7 +1170,7 @@ header {
   line-height: 1.5rem;
 }
 .car_footer .settlement li p span {
-  color: #009646;
+  color: #E77715;
   font-size: 0.8rem;
 }
 .car_footer .settlement li p span i {
@@ -1309,7 +1311,7 @@ header {
 }
 .comm_message .jiage span {
   font-size: 1.1rem;
-  color: #009646;
+  color: #E77715;
 }
 .comm_message .jiage b {
   color: #999999;
@@ -1437,7 +1439,7 @@ header {
 .comm_zp a {
   line-height: 2.8rem;
   font-size: 0.8rem;
-  color: #009646;
+  color: #45591E;
 }
 .comm_class {
   width: 100%;
@@ -1666,7 +1668,6 @@ header {
 }
 .buy_footer .footer_left a {
   flex: 1;
-  border-right: 1px solid #CCCCCC;
   text-align: center;
   color: #666;
 }
@@ -1689,7 +1690,7 @@ header {
   background: #F18E00;
 }
 .buy_footer .promptly_buy {
-  background: #009646;
+  background: #45591E;
 }
 /**********商品详情***********/
 .commodity_details {
@@ -1708,13 +1709,13 @@ header {
   font-size: 0.9rem;
   line-height: 2.7rem;
   text-align: center;
-  color: #333333;
+  color: #333;
   float: left;
   margin: 0 3%;
 }
 .commodity_details .details_nav .active {
-  color: #009646;
-  border-bottom: 1px solid #009646;
+  color: #45591E;
+  border-bottom: 1px solid #45591E;
 }
 .commodity_details .details_nav_hide {
   display: none !important;
@@ -1739,8 +1740,8 @@ header {
   margin: 0 3%;
 }
 .commodity_details .details_nav_show .active {
-  color: #009646;
-  border-bottom: 1px solid #009646;
+  color: #45591E;
+  border-bottom: 1px solid #45591E;
 }
 .commodity_details .details_main {
   width: 100%;
@@ -1820,7 +1821,7 @@ header {
   color: #333333;
 }
 .shopping_choice .choice_top .choice_price p:nth-child(1) {
-  color: #009646;
+  color: #45591E;
 }
 .shopping_choice .choice_top .close {
   width: 1.5rem;
@@ -1866,9 +1867,9 @@ header {
   display: none;
 }
 .shopping_choice .choice_main ul .active {
-  background: #009646;
+  background: #45591E;
   color: #FFFFFF;
-  border: 1px solid #009646;
+  border: 1px solid #45591E;
 }
 .shopping_choice .choice_main .buy_quantity {
   width: 100%;
@@ -1908,7 +1909,7 @@ header {
 .shopping_choice .verify {
   width: 100%;
   height: 3.3rem;
-  background: #009646;
+  background: #45591E;
   color: #FFFFFF;
   font-size: 1rem;
   line-height: 3.3rem;
@@ -1959,6 +1960,169 @@ header {
 .gd_tanc a span {
   float: left;
   color: #FFFFFF;
+}
+/*********我的推荐**********/
+.recommend_list {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 3.7rem;
+}
+.recommend_list li {
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 0 1rem;
+  background: #FFFFFF;
+}
+.recommend_list li p {
+  float: left;
+  line-height: 3rem;
+  font-size: 1rem;
+  margin-right: 0.7rem;
+}
+.recommend_list li span {
+  font-size: 0.8rem;
+  color: #B2B2B2;
+  line-height: 3rem;
+}
+.recommend_list li span:nth-child(2) {
+  float: left;
+}
+.recommend_list li span:nth-child(3) {
+  float: right;
+}
+/*******案例分享***********/
+.case_main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 3.7rem;
+}
+.case_main .case_content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding: 0 1rem;
+}
+.case_main .case_content .case_video {
+  width: 100%;
+  height: 11.2rem;
+  background: #444;
+}
+.case_main .case_content video {
+  width: 100%;
+  height: 11.2rem;
+}
+.case_main .case_content .case_text {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+.case_main .case_content .case_text h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333333;
+  font-weight: 600;
+}
+.case_main .case_content .case_text p {
+  font-size: 0.8rem;
+  color: #333333;
+  line-height: 1.066666rem;
+}
+.case_main .case_content .case_time {
+  width: 100%;
+  color: #999999;
+  line-height: 2rem;
+}
+/*******系统公告********/
+.announcement {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 3.7rem;
+}
+.announcement a {
+  width: 100%;
+  height: 5.4rem;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 1rem;
+  display: block;
+  background: #FFFFFF;
+}
+.announcement a > img {
+  width: 3.3rem;
+  height: 3.3rem;
+  float: left;
+  margin-right: 0.666666rem;
+}
+.announcement a .cenment_main {
+  width: calc(100% - 4rem);
+  float: right;
+}
+.announcement a .cenment_main h4 {
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+.announcement a .cenment_main h4 span {
+  color: #A7A7A7;
+  font-size: 0.8rem;
+  float: right;
+  line-height: 1.5rem;
+}
+.announcement a .cenment_main p {
+  font-size: 0.8rem;
+  color: #A7A7A7;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  width: 100%;
+}
+/*********新手课程*********/
+.course_main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 3.7rem;
+}
+.course_main a {
+  display: block;
+  width: 100%;
+  height: 6rem;
+  padding: 1rem;
+  border-bottom: 1px solid #f5f5f5;
+  background: #FFFFFF;
+}
+.course_main a .left_text {
+  width: 15rem;
+  height: 100%;
+  float: left;
+}
+.course_main a .left_text h4 {
+  font-size: 1rem;
+  color: #333333;
+  width: 100%;
+  height: 2.8rem;
+  line-height: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+.course_main a .left_text p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #999999;
+}
+.course_main a .right_img {
+  width: 7.333333rem;
+  height: 4rem;
+  float: right;
+  overflow: hidden;
+}
+.course_main a .right_img img {
+  width: 100%;
 }
 /*****支付状态页*****/
 .payment_head {

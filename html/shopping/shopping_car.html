@@ -16,6 +16,12 @@
 	    <script src="../../js/public.js"></script>
 	</head>
 	<body style="background: #F5F5F5;">
+		<div class="payment_head review_head">
+			<a href="javascript:;" class="head_ss" id="return_btn">
+				<img src="../../img/icon/return.png"/>
+			</a>
+			<h2>购物车</h2>
+		</div>
 		<!--购物车头部-->
 		<div class="cal_head">
 			<h2>我的购物车</h2>
@@ -23,6 +29,7 @@
 		</div>
 		<!--购物车内容-->
 		<div class="cal_main">
+			<!--购物车空的状态-->
 			<div class="shopp_car_null">
 				<div class="null_img">
 					<img src="../../img/gwc_null.png"/>
@@ -32,6 +39,7 @@
 					<a href="">查看收藏</a>
 				</div>
 			</div>
+			<!--购物车有商品的状态-->
 			<ul class="car_shopping">
 				<li>
 					<div class="shopp_name">
@@ -82,8 +90,8 @@
 					<input type="checkbox" class="check_all"/><em>全选</em>
 				</li>
 				<li>
-					<p>合计：<span>&yen;<i>299.00</i></span></p>
-					<p>已优惠：<span>&yen;199.00</span></p>
+					<p>实付款：<span>&yen;<i>299.00</i></span></p>
+					<p>包含快递费：<span>&yen;5.00</span></p>
 				</li>
 				<li>
 					<a href="javascript:;" id="settle_accounts">结算</a>
